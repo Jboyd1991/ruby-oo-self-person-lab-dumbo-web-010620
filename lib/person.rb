@@ -14,7 +14,7 @@ class Person
     @happiness = 0 if @happiness < 0 
     @happiness = 0 if @happiness > 0 
     
-    Person.happiness = 9
+    self.Person.happiness = 9
   end   
   def hygiene=(num) 
     @hygiene = num 
