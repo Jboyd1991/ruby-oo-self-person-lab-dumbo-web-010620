@@ -58,3 +58,5 @@ class Person
   end 
   
 end 
+
+Person.happiness(9)
