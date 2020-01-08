@@ -11,10 +11,13 @@ class Person
   
   def happiness=(num) 
     @happiness = num 
+  if @happiness > 10 
+      @happiness = 10 
+  elsif
     @happiness = 10  if @happiness > 10 
     @happiness = 0 if @happiness < 0 
     @happiness = num if @happiness > 0 
-  
+  end 
   end 
   
   def hygiene=(num) 
