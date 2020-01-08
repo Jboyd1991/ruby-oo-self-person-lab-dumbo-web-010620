@@ -13,7 +13,8 @@ class Person
     @happiness = num 
   if @happiness > 10 
       @happiness = 10 
-  elsif
+  elsif @happiness < 0 
+      @happiness = 0 
     @happiness = 10  if @happiness > 10 
     @happiness = 0 if @happiness < 0 
     @happiness = num if @happiness > 0 
