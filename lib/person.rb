@@ -22,9 +22,13 @@ class Person
   
   def hygiene=(num) 
     @hygiene = num 
-    @hygiene = 10 if @happiness > 10 
-    @hygiene = 0 if @happiness < 0 
-    @hygiene = 0 if @happiness > 0 
+  if @hygiene > 10 
+      @hygiene = 10 
+  elsif @hygiene < 0 
+      @hygiene = 0 
+  else 
+      @hygiene
+  end
   end  
   
 
