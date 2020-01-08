@@ -33,12 +33,12 @@ class Person
   
 
   def clean? 
-    @happiness > 7 
+    self.hygiene > 7 
   end 
   
   
   def happy?
-    @happiness > 7
+    self.happiness > 7
   end 
   
   def get_paid
