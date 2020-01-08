@@ -13,6 +13,8 @@ class Person
     @happiness = 10 if @happiness > 10 
     @happiness = 0 if @happiness < 0 
     @happiness = 0 if @happiness > 0 
+    
+    Person.happiness = 9
   end   
   def hygiene=(num) 
     @hygiene = num 
