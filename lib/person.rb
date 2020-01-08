@@ -28,10 +28,7 @@ class Person
   
   
   def happy?
-   if @happiness > 7
-     true 
-  else 
-    false 
+    @happiness > 7
   end 
   
   def get_paid
