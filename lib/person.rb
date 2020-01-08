@@ -41,7 +41,7 @@ class Person
     self.happiness > 7
   end 
   
-  def get_paid
+  def get_paid(salary)
     self.bank_account += salary
     "all about the benjamins"
   end 
