@@ -59,4 +59,4 @@ class Person
   
 end 
 
-self.happiness.new(9)
+
